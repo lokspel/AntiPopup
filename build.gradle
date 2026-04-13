@@ -1,6 +1,6 @@
 plugins {
     id "java"
-    id "io.github.goooler.shadow" version "${shadowVer}"
+    id "com.gradleup.shadow" version "${shadowVer}"
     id "org.jetbrains.gradle.plugin.idea-ext" version "1.0.1"
 }
 
@@ -20,7 +20,7 @@ tasks {
 
 allprojects {
     group = "com.github.kaspiandev.antipopup"
-    version = "12.4"
+    version = "13"
 
     repositories {
         mavenCentral()

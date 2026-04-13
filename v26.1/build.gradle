@@ -7,13 +7,13 @@ dependencies {
     compileOnly project(path: ":shared")
     compileOnly project(path: ":nms")
 
-    paperweightDevelopmentBundle "io.papermc.paper:dev-bundle:1.21.11-R0.1-SNAPSHOT"
+    paperweightDevelopmentBundle "io.papermc.paper:dev-bundle:26.1.1.build.28-alpha"
 }
 
 java {
     disableAutoTargetJvm()
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(21))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
     sourceCompatibility = JavaVersion.VERSION_17
     targetCompatibility = JavaVersion.VERSION_17

@@ -1,7 +1,7 @@
 plugins {
     id "java"
     id "org.jetbrains.gradle.plugin.idea-ext" version "1.0.1"
-    id "io.github.goooler.shadow" version "${shadowVer}"
+    id "com.gradleup.shadow" version "${shadowVer}"
 }
 
 repositories {

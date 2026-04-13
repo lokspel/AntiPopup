@@ -11,7 +11,7 @@ softdepend:
   - ViaRewind
   - Geyser-Spigot
 authors: [ Kaspian ]
-description: A plugin that removed annoying unsafe server popup.
+description: A plugin that removes annoying unsafe server popup.
 commands:
   antipopup:
     description: Main antipopup command.
