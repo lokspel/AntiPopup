@@ -20,7 +20,7 @@ tasks {
 
 allprojects {
     group = "com.github.kaspiandev.antipopup"
-    version = "13"
+    version = "13.1"
 
     repositories {
         mavenCentral()
@@ -40,6 +40,10 @@ allprojects {
         maven {
             name = "codemc"
             url = "https://repo.codemc.io/repository/maven-public/"
+        }
+        maven {
+            name = "codemc"
+            url = "https://repo.codemc.io/repository/maven-snapshots/"
         }
     }
 

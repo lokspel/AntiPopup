@@ -126,7 +126,7 @@ public final class AntiPopup extends JavaPlugin {
         if (config.isBlockChatReports()) {
             if (!config.isExperimentalMode()) {
                 PlayerListener playerListener = switch (serverManager.getVersion()) {
-                    case V_26_1, V_26_1_1 -> new PlayerListener(new PlayerInjector_v26_1());
+                    case V_26_1, V_26_1_1, V_26_1_2 -> new PlayerListener(new PlayerInjector_v26_1());
                     case V_1_21_11 -> new PlayerListener(new PlayerInjector_v1_21_11());
                     case V_1_21_9, V_1_21_10 -> new PlayerListener(new PlayerInjector_v1_21_9());
                     case V_1_21_6, V_1_21_7, V_1_21_8 -> new PlayerListener(new PlayerInjector_v1_21_6());
